@@ -1,0 +1,27 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "Hello Issam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "stylelint **/*.css",
+    "dev": "live-server --entry-file=src/index.html",
+    "build:css": "postcss src/index.css -o src/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "prettier": "2.7.1",
+    "stylelint": "^14.10.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^27.0.0"
+  }
+}

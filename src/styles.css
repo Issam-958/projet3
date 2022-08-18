@@ -1,0 +1,11 @@
+.test {
+  color: blue;
+}
+
+.b .c {
+    color: blue;
+  }
+
+.b.d {
+    color: blueviolet;
+  }

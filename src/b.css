@@ -1,0 +1,8 @@
+.b {
+  .c {
+    color: blue;
+  }
+  &.d {
+    color: blueviolet;
+  }
+}
